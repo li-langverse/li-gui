@@ -3,10 +3,11 @@ name = "li-gui"
 version = "0.1.0"
 edition = "2026"
 license = "Apache-2.0 OR MIT"
-description = "Li Studio GUI — viewport region, panel switch timing, paint expansion for li-ui shell IR"
+description = "Native Studio GUI — UiDocument, layout, hit-test, paint IR (widgets for render)"
 
 [dependencies]
 li-ui = { path = "../li-ui" }
+# registry = "1.0.0"             # lip 8d+
 
 [package.metadata.li]
 github_repo = "li-gui"
