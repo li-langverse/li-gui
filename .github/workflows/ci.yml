@@ -22,6 +22,9 @@ jobs:
     runs-on: ubuntu-24.04
     container:
       image: ghcr.io/li-langverse/lic-ci:ubuntu24-llvm22
+    defaults:
+      run:
+        shell: bash
     env:
       LLVM_DIR: /usr/lib/llvm-22/lib/cmake/llvm
       CC: clang-22
